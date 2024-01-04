@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "adm1",
+    "password": "adm1",
+    "database": "bookstore_development",
+    "host": "172.17.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "adm1",
+    "password": "adm1",
+    "database": "bookstore_test",
+    "host": "172.17.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
