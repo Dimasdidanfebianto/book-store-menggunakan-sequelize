@@ -1,3 +1,5 @@
+const { findAllBooks } = require('../app/controller/booksController');
+
 const router = require('express').Router();
 
 router.get('/books', (req, res) => {
@@ -5,5 +7,5 @@ router.get('/books', (req, res) => {
 })
 
 
-
+router.get('/books', findAllBooks)
 module.exports = router
